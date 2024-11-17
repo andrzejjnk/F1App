@@ -1,0 +1,87 @@
+/* Stylowanie tła chatboksu */
+.stTextInput, .stTextArea {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.stButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.stButton:hover {
+    background-color: #0056b3;
+}
+
+.stTextInput, .stTextArea {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+/* Dodanie marginesów do strony */
+.stMarkdown {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Chat container - zewnętrzne obramowanie dla całego kontenera */
+.chat-container {
+    width: 100%;
+    height: 400px;  /* Możesz zmienić na pożądaną wysokość */
+    overflow-y: scroll;
+    border: 2px solid #007bff;  /* Obramowanie zewnętrzne */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylizowanie wiadomości użytkownika (po prawej) */
+.message-user {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* Stylizowanie wiadomości innych użytkowników (po lewej) */
+.message-other {
+    background-color: #F1F1F1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.message-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.message-text {
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 1.5;
+}
