@@ -321,6 +321,9 @@ def add_raceresult_records(paths: Dict[int, str]) -> None:
                 files = os.listdir(path)
                 for file in files:
                     race_result_data = pd.read_csv(f"{path}/{file}")
+                    if file == "Brazil.csv" and path == "data/2024/race_result/":
+                        # Hulkeberg got DSQ in Brazil and completed laps byhim were deleted, so it shall be set as 0
+                        race_result_data.fillna(0,  inplace=True)
                     
                     race_result_data.fillna("-", inplace=True)
                     # Not classified is being replaced by "0" and DQ as -1 because sqlalchemy not allows to store Integer and String data in a single column

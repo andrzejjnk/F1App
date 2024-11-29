@@ -34,7 +34,7 @@ sprints = [
     "2023/races/1207/azerbaijan", "2023/races/1213/austria", "2023/races/1216/belgium",
     "2023/races/1221/qatar", "2023/races/1222/united-states", "2023/races/1224/brazil",
     "2024/races/1233/china", "2024/races/1234/miami", "2024/races/1239/austria", 
-    "2024/races/1247/united-states"
+    "2024/races/1247/united-states", "2024/races/1249/brazil"
 ]
 
 def replace_page_in_urls(urls: List[str]) -> List[str]:

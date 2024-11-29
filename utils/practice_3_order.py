@@ -56,10 +56,8 @@ practice3_order_2024 = {
     14: 'Azerbaijan',
     15: 'Singapore',
     16: 'Mexico',
-    # 21: 'Brazil',
-    # 22: 'Las Vegas',
-    # 23: 'Qatar',
-    # 24: 'Abu Dhabi'
+    17: 'Las Vegas',
+    # 18: 'Abu Dhabi'
 }
 
 practice3_orders = {

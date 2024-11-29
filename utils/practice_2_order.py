@@ -59,10 +59,8 @@ practice2_order_2024 = {
     14: 'Azerbaijan',
     15: 'Singapore',
     16: 'Mexico',
-    # 17: 'Brazil',
-    # 18: 'Las Vegas',
-    # 19: 'Qatar',
-    # 20: 'Abu Dhabi'
+    17: 'Las Vegas',
+    # 18: 'Abu Dhabi'
 }
 
 practice2_orders = {
