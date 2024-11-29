@@ -19,4 +19,4 @@ from database.standings_operations import merge_race_and_sprint_data
 
 from utils.highlights import get_highlights_for_specified_year_race_and_session, get_sessions_per_year_and_race
 
-from plots.time_deltas_operations import plot_time_gap_per_session, plot_time_gap_practice_session
+from plots.time_deltas_operations import plot_time_gap_per_session, plot_time_gap_practice_session, calculate_time_delta
