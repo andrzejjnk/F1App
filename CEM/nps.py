@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Current directory of nps.py
 current_directory = os.path.dirname(os.path.abspath(__file__))
@@ -38,7 +39,23 @@ print(f"promoters: {promoters}")
 print(f"passives: {passives}")
 print(f"detractors: {detractors}")
 print(f"total responses: {total_responses}")
-print(f"Net Promoter Score: {nps:.2f} %")
+print(f"Net Promoter Score: {nps:.1f} %")
 
+file_path_nps_png = os.path.join(current_directory, "nps_score.png")
+
+# Data for the pie chart
+labels = ['Promoters 😊', 'Passives 😐', 'Detractors 😠']
+sizes = [23, 4, 9]
+colors = ['#4CAF50', '#FFC107', '#F44336']  # Green, Yellow, Red
+explode = (0.1, 0, 0)  # Explode the Promoters slice for emphasis
+
+# Create the pie chart
+plt.figure(figsize=(8, 8))
+plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 12})
+plt.title('Net Promoter Score Breakdown', fontsize=16)
+
+plt.savefig(file_path_nps_png)
+plt.tight_layout()
+plt.show()
 
 

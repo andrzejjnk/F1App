@@ -1,0 +1,10 @@
+1. How satisfied are you with the overall user experience of the app?
+2. How easy is it to navigate through the app and find the features you’re looking for?
+3. How satisfied are you with the quality of F1 insights, news, and analysis provided by the app?
+4. How useful do you find the app’s interactive features (polls, race predictions, etc.)?
+5. How well does the app meet your needs for F1-related discussions and community interaction?
+6. How satisfied are you with the live race updates and visualizations in the app?
+7.  How likely are you to recommend this app to other F1 fans?
+8.  How satisfied are you with the speed and responsiveness of the app?
+9. How satisfied are you with the app’s personalization options (e.g., content tailored to favorite teams, drivers)?
+10.  How well does the app fulfill your expectations compared to other F1 apps or platforms?
