@@ -70,9 +70,9 @@ race_order_2024 = {
     19: 'United States',
     20: 'Mexico',
     21: 'Brazil',
-    22: 'Las Vegas'
-    # 23: 'Qatar',
-    # 24: 'Abu Dhabi'
+    22: 'Las Vegas',
+    23: 'Qatar',
+    24: 'Abu Dhabi'
 }
 
 race_orders = {

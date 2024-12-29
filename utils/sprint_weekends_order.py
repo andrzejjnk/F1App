@@ -19,7 +19,7 @@ sprint_order_2024 = {
     3: 'Austria',
     4: 'United States',
     5: 'Brazil',
-    # 6: 'Qatar'
+    6: 'Qatar'
 }
 
 sprint_orders = {

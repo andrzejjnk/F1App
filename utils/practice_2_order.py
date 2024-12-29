@@ -60,7 +60,7 @@ practice2_order_2024 = {
     15: 'Singapore',
     16: 'Mexico',
     17: 'Las Vegas',
-    # 18: 'Abu Dhabi'
+    18: 'Abu Dhabi'
 }
 
 practice2_orders = {
